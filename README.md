@@ -1,5 +1,5 @@
-# Power BI: Projeto Gatito
-# Diagrama do Projeto: 
+### Power BI: Projeto Gatito
+## Diagrama do Projeto: 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/9723b44d-c163-4398-824f-4821b6c93937)
 
 
@@ -52,15 +52,15 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/2cb0b86b-1afc-4616-99e4-196bd840bff0)
 
 
-# _Importando a segunda base: planilha online_
+## _Importando a segunda base: planilha online_
 
-## _A segunda base foi importada através da conexão do tipo Web:_
+### _A segunda base foi importada através da conexão do tipo Web:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/8ee7ae0b-474e-4572-b984-32cb559552d8)
 
 
-## _Ao clicar em Conectar, fomos direcionados para uma janela onde devemos inserir o link da planilha compartilhada:_
+### _Ao clicar em Conectar, fomos direcionados para uma janela onde devemos inserir o link da planilha compartilhada:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/42f8d946-65f5-44cf-ade5-bd076a49f8be)
@@ -72,20 +72,20 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/9c5044e7-fa5a-43ed-a95e-e0a814060598)
 
 
-# _Importando a terceira base: pasta_
+## _Importando a terceira base: pasta_
 
-## _Por fim, realizamos a importação da terceira base através da conexão do tipo Pasta:_
+### _Por fim, realizamos a importação da terceira base através da conexão do tipo Pasta:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/3a803cea-e1ac-4d23-9604-902d5068fa38)
 
-## _Ao clicar em conectar, escolhemos a pasta de Vendas no nosso computador e, em seguida, fomos direcionados para a prévia da pasta e clicamos em Combinar e Transformar Dados:_
+### _Ao clicar em conectar, escolhemos a pasta de Vendas no nosso computador e, em seguida, fomos direcionados para a prévia da pasta e clicamos em Combinar e Transformar Dados:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/87f7d2ad-2848-4331-b5dd-ba64098ecdf5)
 
 
-## ***Após clicar em Combinar e Transformar Dados, fomos direcionados para a prévia da tabela completa, onde escolhemos a primeira opção:***
+### ***Após clicar em Combinar e Transformar Dados, fomos direcionados para a prévia da tabela completa, onde escolhemos a primeira opção:***
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/5e9bdbb8-09da-4540-b180-cb0796c5c86c)
@@ -102,27 +102,27 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 + ***Realizar uma conexão de um arquivo do Excel;*** 
 + ***Fazer uma conexão de uma pasta com vários arquivos do Excel.*** 
 
-## ***Ao relacionar as tabelas de Clientes e de Vendas, encontramos o seguinte aviso:***
+### ***Ao relacionar as tabelas de Clientes e de Vendas, encontramos o seguinte aviso:***
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/08265629-2393-41b6-be3f-b8200081249b)
 
 
-## _Como a tabela de Clientes possui campos nulos, não foi possível realizar o relacionamento. Para isso, tivemos que acessar o Editor do Power Query para remover os valores nulos:_
+### _Como a tabela de Clientes possui campos nulos, não foi possível realizar o relacionamento. Para isso, tivemos que acessar o Editor do Power Query para remover os valores nulos:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/3f6a68aa-3b75-4cc9-ba02-0671c2c1df1b)
 
 
-## _Após realizar esse tratamento, foi possível relacionar as tabelas de Clientes e Vendas:_
+### _Após realizar esse tratamento, foi possível relacionar as tabelas de Clientes e Vendas:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/f07e5f74-92d2-46ba-9e9f-8ccb21173ac8)
 
 
-# _Adicionando colunas_
+## _Adicionando colunas_
 
-## _Após realizarmos o relacionamento entre as tabelas, utilizando a linguagem DAX, adicionamos mais duas colunas à tabela de Vendas, sendo a primeira a coluna de Valor, como podemos verificar abaixo:_ 
+### _Após realizarmos o relacionamento entre as tabelas, utilizando a linguagem DAX, adicionamos mais duas colunas à tabela de Vendas, sendo a primeira a coluna de Valor, como podemos verificar abaixo:_ 
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/0865eceb-8a9c-4019-8cfa-20dce3bb5636)
@@ -130,7 +130,7 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 
 ### _A seguir temos o código em DAX para criar a coluna Valor:_
 
-## *Valor = LOOKUPVALUE(Produtos[Valor],Produtos[ID Produto],Vendas[ID Produto])*
+### *Valor = LOOKUPVALUE(Produtos[Valor],Produtos[ID Produto],Vendas[ID Produto])*
 
 
 ## _A segunda coluna criada foi a de Faturamento:_
@@ -141,10 +141,10 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 
 ### _A seguir temos o código em DAX para criar a coluna Faturamento:_
 
-## *Faturamento = Vendas[Quantidade]*Vendas[Valor]* 
+### *Faturamento = Vendas[Quantidade]*Vendas[Valor]* 
 
 
-## _Após adicionarmos as duas colunas, realizamos a criação da medida Total faturamento, como podemos verificar abaixo:_
+### _Após adicionarmos as duas colunas, realizamos a criação da medida Total faturamento, como podemos verificar abaixo:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/4a14860f-39a5-4e18-a410-0032980fde0e)
@@ -152,7 +152,7 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 
 ### _A seguir temos o código em DAX para criar a coluna Faturamento:_
 
-## *Faturamento total = SUM(Vendas[Faturamento])* 
+### *Faturamento total = SUM(Vendas[Faturamento])* 
 
 
 ### _Com isso, finalizamos as áreas, realizando o relacionamento entre as tabelas, e criando colunas e medidas._
@@ -171,7 +171,7 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 
 ***Qual é o faturamento total do Petshop? E assim dando continuação na montagem da visualização do gráfico***
 
-## _Criando cartões e gráficos:_
+### _Criando cartões e gráficos:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/92ddf7b3-181d-4c25-828b-6af17e4964b8)
@@ -183,7 +183,7 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/22fdb8f7-5ae9-4620-a96b-759d2866c516)
 
 
-## _Para possibilitarmos a pesquisa pela Data de compra e pela Marca, utilizamos a segmentação de dados:_
+### _Para possibilitarmos a pesquisa pela Data de compra e pela Marca, utilizamos a segmentação de dados:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/9adfa7c7-2a07-48a6-8d5b-20be95c94e49)
@@ -192,31 +192,31 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/3c2e2d4c-46c7-4481-90fc-f024557e1e74)
 
 
-## _Para visualizar a métrica de Faturamento total por Gênero, criamos um gráfico de pizza:_
+### _Para visualizar a métrica de Faturamento total por Gênero, criamos um gráfico de pizza:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/010c16b9-f34b-4d93-90f5-e327e7a138b9)
 
 
-## _Para a métrica de Faturamento total por Bairro, usamos o gráfico de barras clusterizado:_
+### _Para a métrica de Faturamento total por Bairro, usamos o gráfico de barras clusterizado:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/acd730d8-275f-48e6-87b3-1d5d77798580)
 
 
-## _Para visualizarmos as imagens contidas nas URL’s dos produtos, fizemos uso do image grid :_
+### _Para visualizarmos as imagens contidas nas URL’s dos produtos, fizemos uso do image grid :_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/2e9a8be9-9e64-4115-adbd-81e62ee44952)
 
 
-## _Para habilitarmos a pesquisa por nome do produto, usamos o text filter:_
+### _Para habilitarmos a pesquisa por nome do produto, usamos o text filter:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/5dcded87-75e8-4152-8da3-22cdc2e4ae93)
 
 
-## _Por fim, para visualizarmos a métrica de Faturamento em relação ao tempo, utilizamos o gráfico de área:_
+### _Por fim, para visualizarmos a métrica de Faturamento em relação ao tempo, utilizamos o gráfico de área:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/6f25d1e0-7a13-4ac4-b73d-bcc7a71207e6)
@@ -229,7 +229,7 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 + ***Identificar quais visuais melhor se adequam aos dados.***
 
 
-## _Chegou o momento de estilizarmos o dashboard!_
+### _Chegou o momento de estilizarmos o dashboard!_
 
 > [!WARNING]
 > + Podemos fazer isso tanto criando um layout diretamente no Power BI quanto importando uma versão já pronta para a ferramenta.
@@ -238,7 +238,7 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 > + Para a elaboração de um dashboard, considere que irá apresentar para a pessoa que demandou essa tarefa. Assim, facilita em definir como quer que seu dashboard transmita as informações solicitadas.
 > + Tem que ter muita atenção nas perguntas que precisa responder no dashboard e priorize os achados no momento em que for apresentar o projeto. A narrativa que será constituída ao dashboard pode facilitar a compreensão das pessoas e engajar as partes interessadas nas suas análises.
 
-## _Para estruturar uma apresentação de impacto, é preciso responder algumas perguntas sobre o dashboard:_
+### _Para estruturar uma apresentação de impacto, é preciso responder algumas perguntas sobre o dashboard:_
 > [!NOTE]
 > + O que a pessoa que vai consumir os dados desse dashboard precisa saber?
 > + O que você gostaria que as pessoas lembrassem ao final da sua apresentação?
@@ -246,27 +246,27 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 
 
 ### _Trouxe primeiro as principais métricas que a Cliente precisa visualizar , porem esta meio bagunçado._
-## _Próximo passo será organizar essa visualização e finalizar o projeto.
+### _Próximo passo será organizar essa visualização e finalizar o projeto._
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/7870e5c6-5187-4960-aec8-91cab5c0f3a8)
 
 
-## _Estilização dos cartões_
+### _Estilização dos cartões_
 
-## _Nesse caso, será utilizado um _layout pronto,_ criado por um designer contratado pela Cliente. 
+### _Nesse caso, será utilizado um _layout pronto,_ criado por um designer contratado pela Cliente._ 
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/dd826e43-74fb-42ee-9c11-bfa4f6babae0)
 
 
-## _Abaixo, podemos verificar o dashboard após as estilizações aplicadas:_
+### _Abaixo, podemos verificar o dashboard após as estilizações aplicadas:_
 
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/9db59ee9-bcac-46d0-8ebb-1ed70b52ae1f)
 
 
-### _Assim, foi feito a estilização de cada um dos visuais e no dashboard como um todo para a Cliente da Gatito Petshop. Com isso, foi finalizado o Dashboard.
+### _Assim, foi feito a estilização de cada um dos visuais e no dashboard como um todo para a Cliente da Gatito Petshop. Com isso, foi finalizado o Dashboard._
 
 
 ### _Nessa etapa foi feito os seguintes pontos:_
