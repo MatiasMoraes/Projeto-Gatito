@@ -260,9 +260,10 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/dd826e43-74fb-42ee-9c11-bfa4f6babae0)
 
 
-### _Abaixo, podemos verificar o dashboard após as estilizações aplicadas:_
+### _Abaixo, podemos verificar o dashboard após as estilizações aplicadas.:_
+### _Clicando no link podera visualizar o dashboard interativo:_
 
-https://app.powerbi.com/view?r=eyJrIjoiZjNhYzVlZmMtZjYxNi00ZWE0LWE3NjUtYzhhZTNmNmExYTMxIiwidCI6ImU3MjI1NzkzLTIzMTctNGRmNi04M2QyLTkwMTI1ZThmNDU2NCJ9
+https://app.powerbi.com/view?r=eyJrIjoiMjU5N2Y5NTktNTg2Yi00MTE1LTk3MWUtNTZjZTZkMmRmN2I0IiwidCI6ImU3MjI1NzkzLTIzMTctNGRmNi04M2QyLTkwMTI1ZThmNDU2NCJ9
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/9db59ee9-bcac-46d0-8ebb-1ed70b52ae1f)
 
