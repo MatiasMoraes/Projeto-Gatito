@@ -261,11 +261,11 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 
 
 ### _Abaixo, podemos verificar o dashboard após as estilizações aplicadas.:_
-### _Clicando no link podera visualizar o dashboard interativo:_
-
-https://app.powerbi.com/view?r=eyJrIjoiMjU5N2Y5NTktNTg2Yi00MTE1LTk3MWUtNTZjZTZkMmRmN2I0IiwidCI6ImU3MjI1NzkzLTIzMTctNGRmNi04M2QyLTkwMTI1ZThmNDU2NCJ9
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/9db59ee9-bcac-46d0-8ebb-1ed70b52ae1f)
+
+### _Clicando no link podera visualizar o dashboard interativo:_
+https://app.powerbi.com/view?r=eyJrIjoiMjU5N2Y5NTktNTg2Yi00MTE1LTk3MWUtNTZjZTZkMmRmN2I0IiwidCI6ImU3MjI1NzkzLTIzMTctNGRmNi04M2QyLTkwMTI1ZThmNDU2NCJ9
 
 
 ### _Assim, foi feito a estilização de cada um dos visuais e no dashboard como um todo para a Cliente da Gatito Petshop. Com isso, foi finalizado o Dashboard._
