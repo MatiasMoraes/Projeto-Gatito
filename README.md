@@ -262,6 +262,7 @@ Portanto, a Cliente vai nos disponibilizar algumas bases de dados da Gatito sobr
 
 ### _Abaixo, podemos verificar o dashboard após as estilizações aplicadas:_
 
+https://app.powerbi.com/view?r=eyJrIjoiZjNhYzVlZmMtZjYxNi00ZWE0LWE3NjUtYzhhZTNmNmExYTMxIiwidCI6ImU3MjI1NzkzLTIzMTctNGRmNi04M2QyLTkwMTI1ZThmNDU2NCJ9
 
 ![image](https://github.com/MatiasMoraes/Projeto-Gatito/assets/141168863/9db59ee9-bcac-46d0-8ebb-1ed70b52ae1f)
 
